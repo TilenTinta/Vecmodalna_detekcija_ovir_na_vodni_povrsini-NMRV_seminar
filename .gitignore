@@ -25,3 +25,4 @@ Navodila/Supercomputer/Kljuci
 
 # Python Cache
 **/__pycache__/
+.gitignore
