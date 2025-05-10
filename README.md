@@ -1,7 +1,5 @@
 # Večmodalna detekcija ovir na vodni površini
 
-Vecmodalna_detekcija_ovir_na_vodni_povrsini-NMRV_seminar
-
 Avtonomna vožnja je področje, ki v zadnjem času doživlja velik razvoj. Največ govora o njej je predvsem v cestnem prometu, vendar pa ni prisotna le v avtomobilski industriji. Raziskave in prve implementacije se pojavljajo tudi v pomorstvu, kjer se avtonomna plovba sooča z drugačnimi izzivi zaradi spremenljivih okolij, značilnih za pomorstvo.
 
 Detekcija ovir na vodi je poseben problem, ki se razlikuje od detekcije na kopnem. Vodna površina se stalno spreminja zaradi vplivov okolja, kot so na primer valovanje, bleščanje, odsevi in megla, ki se na vodi pogosto pojavlja. Poleg tega je razvoj podatkovnih zbirk za ta namen še v zgodnji fazi. Zaradi tega je učenje robustnih modelov strojnega učenja veliko težje v primerjavi s cestnim prometom, kjer so podatkovne zbirke dobro anotirane in številčne.
@@ -24,4 +22,5 @@ Skozi analizo različnih arhitektur in vhodnih podatkov raziskujemo, kako vrsta 
 
 ## Zahteve
 * Python 3.x
-* Knjižnice: OpenCV, PyTorch, YOLO11.
+* Knjižnice: OpenCV, PyTorch, YOLO11
+* PC z GPU ali HPC
