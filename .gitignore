@@ -1,0 +1,26 @@
+# General Ignore Rules
+*.pth
+*.png
+*.pt
+*.jpg
+*.zip
+.DS_Store
+
+# Specific Directories to Ignore
+Clanek/Clanki/
+Clanek/Slike/
+NMRV_seminar/
+Navodila/NMRV_seminar.zip
+Navodila/Supercomputer/Kljuci
+
+# Data-Related Directories
+**/datasets/
+**/runs/
+**/yolo_labels/
+**/yolo_ladica/
+**/test_results/
+**/merged_detections/
+**/merged_detections_x/
+
+# Python Cache
+**/__pycache__/

@@ -1,0 +1,13 @@
+# train: train  # training
+# val: val      # validation
+# test: test    # test
+
+# nc: 1  # Št razredov - samo handla treniranje glave in zamrzovanje uteži
+
+# names: ["Ovira"]
+
+train: C:/DATA/Faks/Elektrotehnika_MAG/2_Letnik/1_Semester/Napredne_metode_racunalniskega_vida/NMRV_seminar_Vision-ML/Detekcija_Thermal_YOLO/datasets/train
+val: C:/DATA/Faks/Elektrotehnika_MAG/2_Letnik/1_Semester/Napredne_metode_racunalniskega_vida/NMRV_seminar_Vision-ML/Detekcija_Thermal_YOLO/datasets/val
+test: C:/DATA/Faks/Elektrotehnika_MAG/2_Letnik/1_Semester/Napredne_metode_racunalniskega_vida/NMRV_seminar_Vision-ML/Detekcija_Thermal_YOLO/datasets/test
+nc: 1
+names: ["ovira"]

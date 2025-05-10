@@ -1,0 +1,36 @@
+Preverimo kateri nodi so prosti:
+sinfo
+
+Preverimo če je specifičen node, prost:
+sinfo -n -N -[ime_noda]
+
+Za priti na node
+srun --partition=gpu --reservation=fe --nodes=1 --ntasks=16 --gres=gpu:1 --pty bash
+
+Preden se logoutas, preveri da je queue prazen:
+squeue -u $USER
+
+Dodaš datoteke na supercomputer:
+scp files_to_add.zip uname@hpc-login1.arnes.si:~
+
+poženeš kodo (nodelist dodaš če želiš na specifičnem nodu zagnat):
+sbatch train.sh (--reservation=fe --nodelist=nw203)
+
+pogledaš kaj se dogaja (če se izvaja R):
+squeue -u [tvojusername]
+ali
+squeue -j [jobnumber]
+
+prekineš job:
+scancel [jobnumber]
+
+pogledaš na kerem nodu ti teče job:
+scontrol show job [jobnumber]
+
+pogledaš ker GPU ma tvoj node:
+scontrol show node [tvoj_node]
+
+listaj module ki so na voljo:
+module avail python
+module avail cuda
+module avail pytorch
